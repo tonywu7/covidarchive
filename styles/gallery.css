@@ -1,0 +1,207 @@
+.gallery .thumbnail {
+    filter: grayscale(100%);
+    transition: 0.25s filter cubic-bezier(0.075, 0.82, 0.165, 1),
+        0.25s -webkit-filter cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.gallery .thumbnail:hover {
+    filter: grayscale(0%);
+}
+
+.image-context.fancybox-content {
+    background: #00000000;
+    z-index: 500;
+    width: 86vw;
+    height: max-content;
+    margin: auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .image-context.fancybox-content {
+        width: 100vw;
+    }
+}
+
+.image-context {
+    display: none;
+}
+
+.image-context img {
+    width: 100%;
+}
+
+.image-context .image-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 550;
+}
+
+.image-nav-area {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.image-full-background {
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.fancybox-button {
+    z-index: 5000;
+}
+
+#airport-1-foreground {
+    left: 48%;
+    top: 10%;
+    bottom: 13%;
+    right: 27%;
+}
+
+#subway-2-foreground {
+    left: 60%;
+    top: 10%;
+    bottom: 47%;
+    right: 19%;
+}
+
+#subway-1-foreground {
+    left: 77%;
+    top: 40%;
+    bottom: 35%;
+    right: 15%;
+}
+
+.image-context.fancybox-content.vertical {
+    width: 40vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .image-context.fancybox-content.vertical {
+        width: 75vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image-context.fancybox-content.vertical {
+        width: 100vw;
+    }
+}
+
+.image-context.fancybox-content.vertical-2 {
+    width: 20vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .image-context.fancybox-content.vertical-2 {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image-context.fancybox-content.vertical-2 {
+        width: 100vw;
+    }
+}
+
+#strand-foreground {
+    left: 20%;
+    top: 50%;
+    bottom: 32%;
+    right: 45%;
+}
+
+#thank-you-foreground {
+    left: 22%;
+    top: 20%;
+    bottom: 14%;
+    right: 48%;
+}
+
+#subway-3-foreground {
+    left: 22%;
+    top: 10%;
+    bottom: 72%;
+    right: 28%;
+}
+
+#smile-foreground {
+    left: 17%;
+    top: 26%;
+    bottom: 45%;
+    right: 57.5%;
+}
+
+#sanlian-protest-foreground {
+    left: 65%;
+    top: 23%;
+    bottom: 52%;
+    right: 6%;
+}
+
+#blockade-1-foreground {
+    left: 24%;
+    top: 65%;
+    bottom: 22%;
+    right: 23%;
+}
+
+#subway-4-foreground {
+    left: 34%;
+    top: 42%;
+    bottom: 30%;
+    right: 34%;
+}
+
+#empty-shelves-foreground {
+    left: 14%;
+    top: 44%;
+    bottom: 3%;
+    right: 14%;
+}
+
+#fuehrerbeleidigung-foreground {
+    left: 50%;
+    top: 42%;
+    bottom: 45%;
+    right: 40%;
+}
+
+#he-sees-you-foreground-2 {
+    left: 75%;
+    top: 44%;
+    bottom: 45%;
+    right: 17%;
+}
+
+#travel-restrictions-foreground {
+    left: 5%;
+    top: 35%;
+    bottom: 15%;
+    right: 5%;
+}
+
+#incalculable-loss-foreground-1 {
+    left: 4%;
+    top: 35%;
+    bottom: 15%;
+    right: 70%;
+}
+#incalculable-loss-foreground-2 {
+    left: 40%;
+    top: 7%;
+    bottom: 58%;
+    right: 10%;
+}
+#incalculable-loss-foreground-3 {
+    left: 45%;
+    top: 50%;
+    bottom: 15%;
+    right: 5%;
+}
